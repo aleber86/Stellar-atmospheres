@@ -248,6 +248,7 @@ c     Function determines if a value is NOT NaN
       else
          NOTNAN = .false.
       end if
+      return
       end
 
       subroutine escrit(radio, velo, dim, unit, index, NTNAN)
